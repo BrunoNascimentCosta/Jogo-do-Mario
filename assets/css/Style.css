@@ -23,7 +23,8 @@
 .mario{
     width: 150px;
     position:absolute;
-    bottom: 0;    
+    bottom: 0;   
+    left: 0; 
 }
 .jump{
     animation: jump 500ms ease-out;
@@ -31,7 +32,7 @@
 .clouds{
     position: absolute;
     width: 550px;
-     animation: pipe-animation 20s infinite linear;
+    animation: pipe-animation 20s infinite linear;
 }
 @keyframes pipe-animation{
     from{
@@ -60,6 +61,6 @@
         right: -500px;
     }
     to {
-        right: 100;
+        right: 100%;
     }
 }
